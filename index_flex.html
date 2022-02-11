@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box{
+            width: 300px;
+            height: 500px;
+            background-color: blue;
+            color: white;
+            border: 5px solid black;
+        }
+
+        .box1:hover{
+            width: 200px;
+            height: 400px;
+            color: rgb(230, 142, 142);
+            border: 2px dotted rgb(151, 10, 10);
+            transition: all 3s;
+        }
+
+        .box2:hover{
+            background-color: rgb(22, 158, 52);
+            transition: background-color 3s;
+            font-size: 25px;
+            transition: font-size 5s ;
+        }
+
+        .box3:hover{
+            visibility: hidden;
+            transition: all 1s;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box box1">Soll seine Grösse </div>
+        <div class="box box2">Soll </div>
+        <div class="box box3">soll</div>
+    </div>
+    
+</body>
+</html>
